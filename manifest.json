@@ -1,0 +1,24 @@
+{
+  "description": "Switch to your admin section",
+  "manifest_version": 2,
+  "name": "Switch to admin",
+  "version": "1.0",
+  "homepage_url": "https://github.com/guillaumebriday/switch-to-admin",
+  "icons": {
+    "128": "icons/icon.png"
+  },
+  "browser_action": {
+    "default_title": "Switch to admin",
+    "default_icon": "icons/icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "options_ui": {
+    "page": "options.html"
+  }
+}
